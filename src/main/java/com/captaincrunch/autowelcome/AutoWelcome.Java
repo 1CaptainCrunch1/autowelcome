@@ -1,4 +1,4 @@
-package com.captaincrunch.autowelome;
+package com.captaincrunch.autowelcome;
 
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -29,7 +29,7 @@ public class AutoWelcome extends JavaPlugin implements Listener {
     }
 
     @EventHandler
-    public void onPlayerJoin(PlayerJoinEvent event) {
+    public void onPlayerJoin(@org.jetbrains.annotations.NotNull PlayerJoinEvent event) {
         String playerName = event.getPlayer().getName();
         event.getPlayer().sendMessage("§aWelcome to the server, " + playerName + "!");
 
