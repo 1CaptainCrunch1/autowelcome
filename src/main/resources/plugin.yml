@@ -1,0 +1,5 @@
+name: AutoWelcome
+version: 1.0.0
+main: com.captaincrunch.autowelcome.AutoWelcome
+api-version: 1.13
+author: CaptainCrunch
